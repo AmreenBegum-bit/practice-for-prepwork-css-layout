@@ -1,0 +1,78 @@
+ .container{
+    text-align: center;
+    margin: 50px 400px 50px 400px;
+    color: blue;
+}
+
+.legend {
+    position: static;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    text-align: left;
+    margin-left: 100px;
+    padding: 1px 25px 1px 5px;
+    color:rgba(170, 22, 157, 0.752)
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    color:brown;
+}
+
+.checks label{
+    margin-top: 0;
+}
+
+.checks{
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+ p{
+    margin: 5px;
+    color:blue;
+
+}
+
+input[type="text"], input[type="email"]{
+    padding:3px;
+    border: solid 1px;
+    width: 200px;
+    color:black;
+}
+
+textarea{
+    min-width: 35%;
+    padding: .5em;
+    border: solid 1px;
+    color: black
+}
+
+.box {
+    display: inline-block;
+    padding: 5px;
+    color: rgb(72, 255, 0);
+}
+
+input[type="checkbox"]+label{
+    display: inline-block;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.tick{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+button{
+    color:blueviolet;
+    cursor: pointer;
+}
+button:hover{
+    color:red;
+}
